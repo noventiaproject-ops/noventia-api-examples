@@ -1,0 +1,293 @@
+{
+  "note": "Answer of the production core (core.noventia.app, build 5be1f08, contract v1.40.0) on 14 November 2026, about 22:31 UTC. Addresses other than programs, listed mints and the BERN mint, and every signature, are shortened to their first and last four characters; the key name is a placeholder; no key is in the file.",
+  "request": "GET /v1/public/meta",
+  "response": {
+    "meta": {
+      "apiVersion": 1,
+      "asOf": "2026-11-14T22:31:36Z",
+      "rules": {
+        "tokenCheck": 5,
+        "thresholds": 2,
+        "officialList": 1,
+        "recognized": "ex2-lp2-br1"
+      },
+      "cache": "held",
+      "credits": 0
+    },
+    "warningCodes": [
+      {
+        "code": "liquidityPull",
+        "warningLevel": 3,
+        "about": "creator",
+        "messageCode": "warning.liquidityPull",
+        "text": "The creator pulled liquidity soon after a launch."
+      },
+      {
+        "code": "firstDayDumps",
+        "warningLevel": 3,
+        "about": "creator",
+        "messageCode": "warning.firstDayDumps",
+        "text": "The creator sold most of their own tokens on day one in several launches."
+      },
+      {
+        "code": "oneFirstDayDump",
+        "warningLevel": 2,
+        "about": "creator",
+        "messageCode": "warning.oneFirstDayDump",
+        "text": "The creator sold most of their own tokens on day one in one launch."
+      },
+      {
+        "code": "movedOutFirstDay",
+        "warningLevel": 2,
+        "about": "creator",
+        "messageCode": "warning.movedOutFirstDay",
+        "text": "The creator moved most of their own tokens to other wallets on day one."
+      },
+      {
+        "code": "mintAuthority",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.mintAuthority",
+        "text": "Someone can still mint more of this token."
+      },
+      {
+        "code": "freezeAuthority",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.freezeAuthority",
+        "text": "Someone can freeze holders' tokens."
+      },
+      {
+        "code": "transferFee",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.transferFee",
+        "text": "Every transfer of this token is charged a fee."
+      },
+      {
+        "code": "permanentDelegate",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.permanentDelegate",
+        "text": "One address can move or burn tokens in any account."
+      },
+      {
+        "code": "transferHook",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.transferHook",
+        "text": "A program runs on every transfer and can refuse it."
+      },
+      {
+        "code": "defaultFrozen",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.defaultFrozen",
+        "text": "New token accounts start frozen."
+      },
+      {
+        "code": "transferFeeChangeable",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.transferFeeChangeable",
+        "text": "The transfer fee can be set or raised by its authority."
+      },
+      {
+        "code": "transferHookChangeable",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.transferHookChangeable",
+        "text": "The program that runs on every transfer can be set or changed by its authority."
+      },
+      {
+        "code": "nonTransferable",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.nonTransferable",
+        "text": "This token cannot be moved to another wallet."
+      },
+      {
+        "code": "pausable",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.pausable",
+        "text": "An authority can pause every transfer of this token."
+      },
+      {
+        "code": "confidentialTransfer",
+        "warningLevel": 1,
+        "about": "token",
+        "messageCode": "warning.confidentialTransfer",
+        "text": "Transfers of this token can hide their amounts."
+      },
+      {
+        "code": "topHoldersConcentrated",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.topHoldersConcentrated",
+        "text": "The top holders hold a large share of the supply."
+      },
+      {
+        "code": "notOfficialMint",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.notOfficialMint",
+        "text": "This token uses the name or ticker of a known asset, but it is not the official mint."
+      },
+      {
+        "code": "fundingCluster",
+        "warningLevel": 2,
+        "about": "token",
+        "messageCode": "warning.fundingCluster",
+        "text": "Several top holders were funded from one source."
+      },
+      {
+        "code": "youngToken",
+        "warningLevel": 1,
+        "about": "token",
+        "messageCode": "warning.youngToken",
+        "text": "This token is new."
+      },
+      {
+        "code": "youngWallet",
+        "warningLevel": 1,
+        "about": "creator",
+        "messageCode": "warning.youngWallet",
+        "text": "The creator's wallet is new."
+      },
+      {
+        "code": "fewLaunches",
+        "warningLevel": 1,
+        "about": "creator",
+        "messageCode": "warning.fewLaunches",
+        "text": "The creator has launched few tokens."
+      },
+      {
+        "code": "liquidityPull",
+        "warningLevel": 3,
+        "about": "wallet",
+        "messageCode": "warning.wallet.liquidityPull",
+        "text": "This wallet pulled liquidity soon after a launch."
+      },
+      {
+        "code": "firstDayDumps",
+        "warningLevel": 3,
+        "about": "wallet",
+        "messageCode": "warning.wallet.firstDayDumps",
+        "text": "This wallet sold most of its own tokens on day one in several launches."
+      },
+      {
+        "code": "oneFirstDayDump",
+        "warningLevel": 2,
+        "about": "wallet",
+        "messageCode": "warning.wallet.oneFirstDayDump",
+        "text": "This wallet sold most of its own tokens on day one in one launch."
+      },
+      {
+        "code": "movedOutFirstDay",
+        "warningLevel": 2,
+        "about": "wallet",
+        "messageCode": "warning.wallet.movedOutFirstDay",
+        "text": "This wallet moved most of its own tokens to other wallets on day one of a launch."
+      },
+      {
+        "code": "youngWallet",
+        "warningLevel": 1,
+        "about": "wallet",
+        "messageCode": "warning.wallet.youngWallet",
+        "text": "This wallet is new."
+      },
+      {
+        "code": "fewLaunches",
+        "warningLevel": 1,
+        "about": "wallet",
+        "messageCode": "warning.wallet.fewLaunches",
+        "text": "This wallet has launched few tokens."
+      },
+      {
+        "code": "tx.simulation_failed",
+        "warningLevel": 2,
+        "about": "transaction",
+        "messageCode": "warning.tx.simulation_failed",
+        "text": "The simulation of this transaction ended in an error."
+      },
+      {
+        "code": "tx.delegate_set",
+        "warningLevel": 2,
+        "about": "transaction",
+        "messageCode": "warning.tx.delegate_set",
+        "text": "This transaction lets another address move tokens from the signer's account."
+      },
+      {
+        "code": "tx.authority_changed",
+        "warningLevel": 3,
+        "about": "transaction",
+        "messageCode": "warning.tx.authority_changed",
+        "text": "This transaction passes an authority over the signer's token account to another address."
+      },
+      {
+        "code": "tx.account_reassigned",
+        "warningLevel": 3,
+        "about": "transaction",
+        "messageCode": "warning.tx.account_reassigned",
+        "text": "This transaction makes a program the owner of the signer's account."
+      },
+      {
+        "code": "tx.unlisted_program",
+        "warningLevel": 1,
+        "about": "transaction",
+        "messageCode": "warning.tx.unlisted_program",
+        "text": "This transaction calls a program outside the recognized lists."
+      },
+      {
+        "code": "tx.balance_leaves",
+        "warningLevel": 2,
+        "about": "transaction",
+        "messageCode": "warning.tx.balance_leaves",
+        "text": "A large share of the signer's balance leaves and nothing arrives."
+      },
+      {
+        "code": "tx.nothing_changes",
+        "warningLevel": 1,
+        "about": "transaction",
+        "messageCode": "warning.tx.nothing_changes",
+        "text": "The signer pays a fee and no balance changes."
+      },
+      {
+        "code": "tx.token_account_closed",
+        "warningLevel": 1,
+        "about": "transaction",
+        "messageCode": "warning.tx.token_account_closed",
+        "text": "This transaction closes a token account of the signer that holds tokens now. Transfers to that address fail until the account is opened again."
+      },
+      {
+        "code": "tx.received_token_warned",
+        "warningLevel": 3,
+        "about": "transaction",
+        "messageCode": "warning.tx.received_token_warned",
+        "text": "A token the signer would receive has warnings. This warning uses the highest of their levels."
+      }
+    ],
+    "factKinds": [
+      "solana.mintState",
+      "solana.tokenFirstTransaction",
+      "solana.tokenMetadata",
+      "solana.holderConcentration",
+      "solana.fundingClusters",
+      "solana.firstTransaction"
+    ],
+    "key": {
+      "name": "Example Partner",
+      "plan": "free",
+      "limits": {
+        "requestsPerMinute": 60,
+        "creditsPerDay": 300,
+        "transactionChecksPerDay": 200
+      },
+      "today": {
+        "calls": 21,
+        "credits": 32
+      }
+    }
+  }
+}

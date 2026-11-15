@@ -1,0 +1,7 @@
+{
+  "name": "noventia-api-examples-typescript",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.18" }
+}

@@ -1,0 +1,341 @@
+{
+  "note": "Answer of the production core (core.noventia.app, build 5be1f08, contract v1.40.0) on 14 November 2026, about 22:31 UTC. Addresses other than programs, listed mints and the BERN mint, and every signature, are shortened to their first and last four characters; the key name is a placeholder; no key is in the file.",
+  "request": "GET /v1/public/token/CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo?depth=mint",
+  "response": {
+    "meta": {
+      "apiVersion": 1,
+      "asOf": "2026-11-14T22:31:36Z",
+      "rules": {
+        "tokenCheck": 5,
+        "thresholds": 2,
+        "officialList": 1,
+        "recognized": "ex2-lp2-br1"
+      },
+      "cache": "held",
+      "credits": 0
+    },
+    "subject": {
+      "kind": "token",
+      "address": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+    },
+    "depth": "mint",
+    "facts": [
+      {
+        "kind": "solana.mintState",
+        "value": {
+          "decimals": 5,
+          "pausable": null,
+          "supplyRaw": "94322057252946",
+          "extensions": [
+            "transferFeeConfig"
+          ],
+          "transferFee": {
+            "newer": {
+              "bps": 269,
+              "epoch": 698,
+              "maxFeeRaw": "3906250000000000000"
+            },
+            "older": {
+              "bps": 420,
+              "epoch": 624,
+              "maxFeeRaw": "3906250000000000000"
+            },
+            "current": {
+              "bps": 269,
+              "epoch": 698,
+              "maxFeeRaw": "3906250000000000000"
+            },
+            "scheduled": null,
+            "epochAtRead": 1086
+          },
+          "tokenProgram": "token-2022",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "nonTransferable": false,
+          "permanentDelegate": null,
+          "defaultAccountState": null,
+          "transferHookProgram": null,
+          "confidentialTransfer": false,
+          "transferFeeAuthority": "BeRN…WyEe",
+          "transferHookAuthority": null,
+          "transferFeeWithdrawAuthority": "BeRN…WyEe"
+        },
+        "factId": "solana.mintState:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo:469495934",
+        "proofs": [
+          {
+            "kind": "solana-account",
+            "slot": 469495934,
+            "address": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+          }
+        ],
+        "subjectId": "token:solana:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+      },
+      {
+        "kind": "solana.holderConcentration",
+        "value": {
+          "top": 10,
+          "excluded": {
+            "burn": {
+              "accounts": 0,
+              "sharePct": 0
+            },
+            "pools": {
+              "accounts": 0,
+              "sharePct": 0
+            },
+            "exchanges": {
+              "accounts": 0,
+              "sharePct": 0
+            }
+          },
+          "supplyRaw": "94322057252946",
+          "topSharePct": 45.71,
+          "accountsRead": 20,
+          "holdersCounted": 10,
+          "programHolders": 1
+        },
+        "factId": "solana.holderConcentration:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo:469495939",
+        "proofs": [
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "Ft1U…XUWN"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "i1Us…oTeP"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "CK9q…Ts1Y"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "3Sbw…RKAA"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "A4Bj…GyzE"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "A1do…HaB4"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "2fps…r5w1"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "By5y…Cioj"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "8oZ3…s1UJ"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "5R65…4KKM"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "ByJ6…WRAN"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "EH7Z…Yhss"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "Afha…AUJu"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "9YYY…rQJA"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "3C8d…MQPU"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "EH4K…QF3t"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "2bkX…hEWB"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "C8BH…KvF2"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "5JKu…c6Zu"
+          },
+          {
+            "kind": "solana-account",
+            "slot": 469495939,
+            "address": "2BnL…ewSk"
+          }
+        ],
+        "subjectId": "token:solana:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+      },
+      {
+        "kind": "solana.tokenFirstTransaction",
+        "value": {
+          "blockTime": 1685437584
+        },
+        "factId": "solana.tokenFirstTransaction:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo:5Hcv…iu1R",
+        "proofs": [
+          {
+            "kind": "solana-tx",
+            "signature": "5Hcv…iu1R"
+          }
+        ],
+        "subjectId": "token:solana:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+      },
+      {
+        "kind": "solana.tokenCreated",
+        "value": {
+          "mint": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo",
+          "program": "token-2022",
+          "blockTime": 1685437584
+        },
+        "factId": "solana.tokenCreated:5Hcv…iu1R:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo",
+        "proofs": [
+          {
+            "kind": "solana-tx",
+            "signature": "5Hcv…iu1R"
+          }
+        ],
+        "subjectId": "wallet:solana:7MyT…RDzD"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "transferFee",
+        "warningLevel": 2,
+        "about": "token",
+        "factIds": [
+          "solana.mintState:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo:469495934"
+        ],
+        "proofs": [
+          {
+            "kind": "solana-account",
+            "slot": 469495934,
+            "address": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+          }
+        ],
+        "messageCode": "warning.transferFee",
+        "text": "Every transfer of this token is charged a fee."
+      },
+      {
+        "code": "transferFeeChangeable",
+        "warningLevel": 2,
+        "about": "token",
+        "factIds": [
+          "solana.mintState:CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo:469495934"
+        ],
+        "proofs": [
+          {
+            "kind": "solana-account",
+            "slot": 469495934,
+            "address": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo"
+          }
+        ],
+        "messageCode": "warning.transferFeeChangeable",
+        "text": "The transfer fee can be set or raised by its authority."
+      },
+      {
+        "code": "movedOutFirstDay",
+        "warningLevel": 2,
+        "about": "creator",
+        "factIds": [
+          "solana.tokenMovement:26dR…bpbN:0",
+          "solana.tokenMovement:2Ufm…Aqnd:0"
+        ],
+        "proofs": [
+          {
+            "kind": "solana-tx",
+            "signature": "2Ufm…Aqnd"
+          },
+          {
+            "kind": "solana-tx",
+            "signature": "26dR…bpbN"
+          }
+        ],
+        "messageCode": "warning.movedOutFirstDay",
+        "text": "The creator moved most of their own tokens to other wallets on day one."
+      }
+    ],
+    "issuerPowers": [],
+    "official": null,
+    "creator": {
+      "address": "7MyT…RDzD",
+      "card": {
+        "firstDayDumps": {
+          "value": 0,
+          "proofs": []
+        },
+        "onSolanaSince": "2023-05-30",
+        "walletAgeDays": 1264,
+        "liquidityPulls": {
+          "value": 0,
+          "proofs": []
+        },
+        "tokensLaunched": {
+          "value": 2,
+          "proofs": [
+            {
+              "kind": "solana-tx",
+              "signature": "428v…u5Am"
+            },
+            {
+              "kind": "solana-tx",
+              "signature": "5Hcv…iu1R"
+            }
+          ]
+        },
+        "movedOutFirstDay": {
+          "value": 1,
+          "proofs": [
+            {
+              "kind": "solana-tx",
+              "signature": "2Ufm…Aqnd"
+            },
+            {
+              "kind": "solana-tx",
+              "signature": "26dR…bpbN"
+            }
+          ]
+        }
+      }
+    },
+    "notRead": [
+      {
+        "what": "creator_history",
+        "reason": "daily_cap"
+      }
+    ],
+    "highestWarning": 2
+  }
+}

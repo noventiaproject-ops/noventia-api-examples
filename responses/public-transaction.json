@@ -1,0 +1,136 @@
+{
+  "note": "Answer of the production core (core.noventia.app, build 5be1f08, contract v1.40.0) on 14 November 2026, about 22:31 UTC. Addresses other than programs, listed mints and the BERN mint, and every signature, are shortened to their first and last four characters; the key name is a placeholder; no key is in the file.",
+  "request": "POST /v1/public/transaction",
+  "body": {
+    "transaction": "AQAAAAAAAAAAAAAAAAAAAAAA…",
+    "signer": "429M…CaxT"
+  },
+  "response": {
+    "meta": {
+      "apiVersion": 1,
+      "asOf": "2026-11-14T22:31:38Z",
+      "rules": {
+        "tokenCheck": 5,
+        "thresholds": 2,
+        "officialList": 1,
+        "recognized": "ex2-lp2-br1"
+      },
+      "cache": "read",
+      "credits": 1
+    },
+    "subject": {
+      "kind": "transaction",
+      "signer": "429M…CaxT"
+    },
+    "beta": true,
+    "simulation": {
+      "status": "ok",
+      "error": null,
+      "unitsConsumed": 52466,
+      "feeLamports": "23343"
+    },
+    "changes": {
+      "sol": {
+        "before": "66476061",
+        "after": "66991158",
+        "depositsReturned": "1488440"
+      },
+      "tokens": [
+        {
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "decimals": 6,
+          "before": "815761",
+          "after": "885307"
+        },
+        {
+          "mint": "So11111111111111111111111111111111111111112",
+          "decimals": 9,
+          "before": "50000",
+          "after": "0"
+        }
+      ],
+      "accountsOpened": 0,
+      "accountsClosed": 1,
+      "closed": [
+        {
+          "account": "4UtY…G2dH",
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenBefore": "50000",
+          "lamportsBefore": "1538440",
+          "depositLamports": "1488440",
+          "to": "429M…CaxT"
+        }
+      ]
+    },
+    "programs": [
+      {
+        "address": "ComputeBudget111111111111111111111111111111",
+        "listed": true,
+        "name": "Compute Budget Program",
+        "inner": false,
+        "namedBy": null
+      },
+      {
+        "address": "11111111111111111111111111111111",
+        "listed": true,
+        "name": "System Program",
+        "inner": false,
+        "namedBy": null
+      },
+      {
+        "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "listed": true,
+        "name": "Token Program",
+        "inner": false,
+        "namedBy": null
+      },
+      {
+        "address": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+        "listed": true,
+        "name": "Jupiter Swap (v6)",
+        "inner": false,
+        "namedBy": null
+      },
+      {
+        "address": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+        "listed": true,
+        "name": "Raydium CLMM",
+        "inner": true,
+        "namedBy": null
+      }
+    ],
+    "grants": [],
+    "tokens": [
+      {
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "highestWarning": 0,
+        "warnings": [],
+        "notRead": [
+          {
+            "what": "holders",
+            "reason": "largest_accounts_unavailable"
+          }
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "code": "tx.token_account_closed",
+        "warningLevel": 1,
+        "about": "transaction",
+        "factIds": [],
+        "proofs": [
+          {
+            "kind": "solana-account",
+            "address": "4UtY…G2dH",
+            "slot": 469496075
+          }
+        ],
+        "messageCode": "warning.tx.token_account_closed",
+        "text": "This transaction closes a token account of the signer that holds tokens now. Transfers to that address fail until the account is opened again."
+      }
+    ],
+    "notRead": [],
+    "highestWarning": 1
+  }
+}

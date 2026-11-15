@@ -1,0 +1,83 @@
+{
+  "note": "Answer of the production core (core.noventia.app, build 5be1f08, contract v1.40.0) on 14 November 2026, about 22:31 UTC. Addresses other than programs, listed mints and the BERN mint, and every signature, are shortened to their first and last four characters; the key name is a placeholder; no key is in the file.",
+  "request": "GET /v1/public/wallet/429M…CaxT",
+  "response": {
+    "meta": {
+      "apiVersion": 1,
+      "asOf": "2026-11-14T22:31:37Z",
+      "rules": {
+        "tokenCheck": 5,
+        "thresholds": 2,
+        "officialList": 1,
+        "recognized": "ex2-lp2-br1"
+      },
+      "cache": "read",
+      "credits": 10
+    },
+    "subject": {
+      "kind": "wallet",
+      "address": "429M…CaxT"
+    },
+    "account": {
+      "kind": "wallet",
+      "recognized": null
+    },
+    "facts": [
+      {
+        "factId": "solana.firstTransaction:5fzf…XpXN:0",
+        "subjectId": "wallet:solana:429M…CaxT",
+        "kind": "solana.firstTransaction",
+        "value": {
+          "blockTime": 1794307703
+        },
+        "proofs": [
+          {
+            "kind": "solana-tx",
+            "slot": 467692521,
+            "signature": "5fzf…XpXN"
+          }
+        ]
+      }
+    ],
+    "ageDays": 4,
+    "created": {
+      "onSolanaSince": "2026-11-10",
+      "walletAgeDays": 4,
+      "tokensLaunched": {
+        "value": 0,
+        "proofs": []
+      },
+      "liquidityPulls": {
+        "value": 0,
+        "proofs": []
+      },
+      "firstDayDumps": {
+        "value": 0,
+        "proofs": []
+      },
+      "movedOutFirstDay": {
+        "value": 0,
+        "proofs": []
+      }
+    },
+    "automation": null,
+    "warnings": [
+      {
+        "code": "youngWallet",
+        "warningLevel": 1,
+        "about": "wallet",
+        "factIds": [],
+        "proofs": [
+          {
+            "kind": "solana-tx",
+            "signature": "5fzf…XpXN"
+          }
+        ],
+        "messageCode": "warning.wallet.youngWallet",
+        "text": "This wallet is new."
+      }
+    ],
+    "notRead": [],
+    "highestWarning": 1
+  }
+}
